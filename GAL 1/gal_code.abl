@@ -1,0 +1,16 @@
+MODULE GAL_Code
+
+TITLE 'GAL_Code'
+
+DECLARATIONS
+PM5 pin 1;	"clock"
+PM4 pin 2;	"data"
+q0..q7 pin 14..21 istype 'reg';
+
+EQUATIONS
+[q1..q7] := [q0..q6];
+q0 := PM4;
+[q0..q7].clk = PM5;
+
+END
+

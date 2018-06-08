@@ -1,0 +1,60 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Sat Nov 18 13:50:45 2017
+#$ TITLE GAL_Code
+#$ MODULE GAL_Code
+#$ JEDECFILE gal_code
+#$ PINS 10 PM5:1 PM4:2 q0:14 q1:15 q2:16 q3:17 q4:18 q5:19 q6:20 q7:21
+
+.model gal_code
+.inputs q0.BLIF q1.BLIF q2.BLIF q3.BLIF q4.BLIF q5.BLIF q6.BLIF PM4.BLIF PM5.BLIF
+.outputs q1.REG q2.REG q3.REG q4.REG q5.REG q6.REG q7.REG q0.REG q0.C q1.C \
+q2.C q3.C q4.C q5.C q6.C q7.C
+.names q0.BLIF q1.REG
+1 1
+0 0
+.names q1.BLIF q2.REG
+1 1
+0 0
+.names q2.BLIF q3.REG
+1 1
+0 0
+.names q3.BLIF q4.REG
+1 1
+0 0
+.names q4.BLIF q5.REG
+1 1
+0 0
+.names q5.BLIF q6.REG
+1 1
+0 0
+.names q6.BLIF q7.REG
+1 1
+0 0
+.names PM4.BLIF q0.REG
+1 1
+0 0
+.names PM5.BLIF q0.C
+1 1
+0 0
+.names PM5.BLIF q1.C
+1 1
+0 0
+.names PM5.BLIF q2.C
+1 1
+0 0
+.names PM5.BLIF q3.C
+1 1
+0 0
+.names PM5.BLIF q4.C
+1 1
+0 0
+.names PM5.BLIF q5.C
+1 1
+0 0
+.names PM5.BLIF q6.C
+1 1
+0 0
+.names PM5.BLIF q7.C
+1 1
+0 0
+.end

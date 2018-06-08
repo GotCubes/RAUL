@@ -1,0 +1,100 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: Compile Logic
+Start to record tcl script...
+Finished recording TCL script.
+
+Starting: 'C:\ispLEVER_Classic2_0\ispcpld\bin\ahdl2blf.exe "gal2_code.abl" -mod gal2_code -ojhd compile -def _PLSI_ _LATTICE_  -err automake.err -gui'
+
+AHDL2BLF  ABEL-HDL Processor
+ispLEVER Classic 2.0 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Module: 'gal2_code'
+
+  Processing truth table...
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Warning 1086:In "gal2_code.abl":21:Signal 'GLED1' has not been declared as combinatorial.
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Warning 1086:In "gal2_code.abl":21:Signal 'GLED2' has not been declared as combinatorial.
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Warning 1086:In "gal2_code.abl":21:Signal 'GLED3' has not been declared as combinatorial.
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Warning 1086:In "gal2_code.abl":21:Signal 'GLED4' has not been declared as combinatorial.
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Warning 1086:In "gal2_code.abl":21:Signal 'GLED6' has not been declared as combinatorial.
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Warning 1086:In "gal2_code.abl":21:Signal 'YLED1' has not been declared as combinatorial.
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Warning 1086:In "gal2_code.abl":21:Signal 'YLED2' has not been declared as combinatorial.
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Warning 1086:In "gal2_code.abl":21:Signal 'YLED3' has not been declared as combinatorial.
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Warning 1086:In "gal2_code.abl":21:Signal 'RLED1' has not been declared as combinatorial.
+
+0021 |TRUTH_TABLE([PT7,PT6,PT5,PT4]->[GLED1,GLED2,GLED3,GLED4,GLED6,YLED1,YLED2,YLED3,RLED1])
+                                                                                              ^
+Logical Error 1095: In "gal2_code.abl":21:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+       ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+        ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+         ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+          ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+           ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+            ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+             ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+              ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+               ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+
+0022 |	    [  0,  0,  0,  0]->[    0,    0,    0,    0,    0,    0,    0,    0,    0];  
+                ^
+Logical Error 1095: In "gal2_code.abl":22:Block or macro nested too far. (Possible mis-use of macro arguments.)
+Fatal Error 1999: Too many errors.
+Done: failed with exit code: 0002.
